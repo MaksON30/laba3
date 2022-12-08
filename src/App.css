@@ -1,0 +1,22 @@
+.bg-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+}
+.main-section{
+    background-image: url('./files/Lab3/bg.svg');
+    height:calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+}
+.div-fon-color{
+    background: red;
+    width: 100vw;
+    height: 100vh;
+}
+.h1-text{
+    display: none;
+    justify-content: center;
+    Color:white;
+    font-size:200px;
+}

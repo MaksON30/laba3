@@ -1,0 +1,11 @@
+.bg-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+}
+.main-section{
+    background-image: url('../../files/Lab3/bg.svg');
+    height:calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+}

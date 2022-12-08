@@ -1,0 +1,39 @@
+.footer{
+    background-image:url('/src/files/Lab3/bg.svg');
+    display: flex;
+    justify-content: center;
+}
+.footer-fon{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-color:black;
+    opacity: 0.6;
+}
+.footer-container{
+    padding:70px 0px 70px 0px;
+    width:1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-container-left>h1{
+    color:white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 54px;  
+}
+.footer-container-right>h4{
+    color:white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;  
+}
+.footer-container-left>h1:hover{
+    text-shadow: 3px 3px 4px rgb(255, 0, 0);
+    cursor: pointer;
+}
+.footer-container-right>h4:hover{
+    text-shadow: 3px 3px 4px rgb(255, 0, 0);
+    cursor: pointer;
+}

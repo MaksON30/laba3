@@ -1,0 +1,30 @@
+nav{
+    background-image:url('/src/files/Lab3/bg.svg');
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-container-fon-container>a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 54px;  
+}
+.navigation-container-fon-container>a:hover{
+    text-shadow: 3px 3px 4px rgb(255, 0, 0);
+    cursor: pointer;
+}
+.navigation-container-fon{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-color:black;
+    opacity: 0.6;
+}
+.navigation-container-fon-container{
+    width:1280px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

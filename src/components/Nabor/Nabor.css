@@ -1,0 +1,16 @@
+.vmista{
+    height: calc(100vh - 140px);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.button-copy{
+    opacity:0;
+    border-radius: 5px;
+    border: 2px solid hsla(0,0%,100%,.2);
+    background-color: #ffffff00;
+    cursor:pointer;
+    padding:1rem 40px ;
+    visibility: hidden;
+
+}
+
